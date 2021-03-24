@@ -40,6 +40,15 @@ Information used to record creation and execution of smart contrats.
 
 # Creating transactions
 
+At this code I'll make a transaction between two accounts. To do that, there's a few main things that need happen.
 
+First I need to bring in the dependencies and set up my connection between Web3 and Ganache.
 
+## web3.js
+
+Makes possible the communication between an app and the ethereum blockchain.
+
+## Ganache
+
+It's a tool that allow us to use a local ethereum blockchain that preset 10 accounts with 100 ether each one.
 
