@@ -1,3 +1,5 @@
+![Beginners-Guide-to-Ethereum](https://user-images.githubusercontent.com/73957838/112249544-bce24480-8c36-11eb-9fb9-592d6f573a56.jpg)
+
 # Ethereum transaction
 
 On the Ethereum network we have two types of transactions:
@@ -7,7 +9,9 @@ On the Ethereum network we have two types of transactions:
 
 ## Transaction fields
 
-Let's go over transaction's fields in a little detail. 
+![Selection_121](https://user-images.githubusercontent.com/73957838/112249395-77257c00-8c36-11eb-8a73-73feec80216d.png)
+
+Let's go over transaction's fields in a little more detail. 
 
 ### Nonce
 
