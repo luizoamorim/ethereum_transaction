@@ -29,7 +29,7 @@ var rawTransaction = {
 ##    Sign the transaction    ##
 ###############################*/
 
-// Step 7: Sign the transaction with the Hex value
+// Step 5: Sign the transaction with the Hex value
 // of the private key of the sending Address
 var privateKeySender = '941474c0fdd059f6b618daa03d4ac165e77ec1e890c663cdc8b8c70a30e16c0c';
 var privateKeySenderHex = new Buffer.from(privateKeySender, 'hex');
@@ -40,7 +40,7 @@ transaction.sign(privateKeySenderHex);
 ##    Send the transaction to the network   ##
 ############################################*/
 
-// Step 8: Send the serialized signed transaction to the
+// Step 6: Send the serialized signed transaction to the
 // Ethereum network.
 var serializedTransaction = transaction.serialize();
 web3.eth.sendSignedTransaction(serializedTransaction);

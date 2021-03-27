@@ -52,3 +52,10 @@ Makes possible the communication between an app and the ethereum blockchain.
 
 It's a tool that allow us to use a local ethereum blockchain that preset 10 accounts with 100 ether each one.
 
+## ethereumjs-tx
+We use this library to create a new transaction.
+
+# Code goals
+So the code is very simple and will show how to connect on a Ethereum network using web3. 
+Demonstrate how to create a transaction with ethereumjs-tx.
+We'll too sign the transaction and send it to the network.
