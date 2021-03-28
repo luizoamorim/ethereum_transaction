@@ -14,9 +14,11 @@ web3.eth.getUncle(5, 4)
 
 /**
  * What is a uncle block?
- * Orphaned blocks and unlike other blockchains, in 
- * Ethereum they are included and rewarded. The dashboard 
- * displays current block uncle count and that from last 50 blocks.
+ * Uncle blocks are created in Ethereum blockchains when two blocks 
+ * are mined and submitted to the ledger at roughly the same time. 
+ * Only one can enter the ledger as a block, and the other does not.
+ * Miners are rewarded for uncle blocks in the Ethereum system, whereas
+ * orphan blocks in Bitcoin were not rewarded.
  */
 
 // Returns the number of transaction in a given block.
