@@ -1,5 +1,16 @@
 ![Beginners-Guide-to-Ethereum](https://user-images.githubusercontent.com/73957838/112249544-bce24480-8c36-11eb-9fb9-592d6f573a56.jpg)
 
+# Goals
+
+## Create a transaction
+Show how to connect on a Ethereum network using web3. 
+Demonstrate how to create a transaction with ethereumjs-tx.
+We'll too sign the transaction and send it to the network.
+
+## Show a bit about Ethereum network statistics
+To see how is the Ethereum network you can access https://ethstats.net/
+But if you wanna see how it works in a development environment, you can use the web3 library. We see this use on the src/ethStatistics.js
+
 # Ethereum transaction
 
 On the Ethereum network we have two types of transactions:
@@ -55,7 +66,6 @@ It's a tool that allow us to use a local ethereum blockchain that preset 10 acco
 ## ethereumjs-tx
 We use this library to create a new transaction.
 
-# Goals
-So the code is very simple and will show how to connect on a Ethereum network using web3. 
-Demonstrate how to create a transaction with ethereumjs-tx.
-We'll too sign the transaction and send it to the network.
+Go to the code to undestand better
+src/index.js
+

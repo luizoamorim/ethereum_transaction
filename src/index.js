@@ -13,15 +13,15 @@ var receivingAddress = '0x5969D71011f61E93deA5EB919abfE854A4AC0920';
 
 // Step 3: Check the balance of each address
 web3.eth.getBalance(sendingAddress).then(console.log);
-web3.eth.getBalance(sendingAddress).then(console.log);
+web3.eth.getBalance(receivingAddress).then(console.log);
 
 // Step 4: Set up the transaction using the transaction variables as shown
 var rawTransaction = {
-    nonce: web3.utils.toHex(0),
+    nonce: web3.utils.toHex(5),
     to: receivingAddress,
-    gasPrice: web3.utils.toHex(20000000),
+    gasPrice: web3.utils.toHex(50000000000000),
     gasLimit: web3.utils.toHex(30000),
-    value: web3.utils.toHex(100),
+    value: web3.utils.toHex(2000000),
     data: web3.utils.toHex("")
 }
 
